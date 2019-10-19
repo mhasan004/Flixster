@@ -1,0 +1,7 @@
+#Sat Oct 19 03:15:31 EDT 2019
+base.0=C\:\\REPOSITORIES\\GH\\Flixster\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\REPOSITORIES\\GH\\Flixster\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
