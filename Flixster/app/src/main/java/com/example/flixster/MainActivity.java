@@ -26,7 +26,10 @@ import okhttp3.Headers;
     // This class will have a method called makeMovieListFromJsonArray() which will take in a JSONArray and will output a List of "Movie" objects
     // that has the "posterPath", "title", and "overview" of the JSON  text (class also has getters and setters
 //4) make the xml files and go make the adapters: make a new 'adapters" package and add "MovieAdapter.java" class inside it.
-//5) Back from MovieAdapter.java
+//5) Back from MovieAdapter.java. Setting up the adapter for the RecycleView (rvMovies)
+//6) Updating the data as we scroll down.
+        // onCreateViewHolder() Will only display movies (views) on screen till it fills it up (this method takes a lot of time)
+        // As we scroll down, more movies wil be use onBindViewHolder() to add to the RV
 public class MainActivity extends AppCompatActivity {
     public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed"; //1.0) getting the url (passing in the api key as well into the url"
     public static final String TAG = "MainActivity";                                                // 1.0) Making a tag to easily log data
