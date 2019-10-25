@@ -3,26 +3,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#090808"
+    android:paddingBottom="10dp">
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="154dp"
-        android:layout_height="130dp"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:background="#0C0808"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:scaleType="center"
         app:srcCompat="@drawable/ic_launcher_background"
         tools:layout_marginStart="0dp"
-        tools:layout_marginTop="0dp" />
+        tools:layout_marginTop="0dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[8]" />
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="7dp"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="7dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         tools:text="El Camino: A Breaking Bad Movie" />
 
@@ -31,9 +46,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
+        android:layout_alignBottom="@+id/ivPoster"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
+        android:layout_marginBottom="55dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textSize="12sp"
-        tools:text='In the wake of his dramatic escape from captivity, Jesse Pinkman must come to terms with his past in order to forge some kind of future."' />
+        android:paddingRight="2dp"
+        android:textColor="#716D6D"
+        android:textSize="20sp"
+        tools:text='In the wake of his dramatic escape from captivity, Jesse Pinknd of future."' />
 </RelativeLayout>

@@ -44,6 +44,10 @@
         "source": "C:\\REPOSITORIES\\GH\\Flixster\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\REPOSITORIES\\GH\\Flixster\\app\\build\\intermediates\\res\\merged\\debug\\font_allerta_stencil.xml.flat",
+        "source": "C:\\REPOSITORIES\\GH\\Flixster\\app\\src\\main\\res\\font\\allerta_stencil.xml"
+    },
+    {
         "merged": "C:\\REPOSITORIES\\GH\\Flixster\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\REPOSITORIES\\GH\\Flixster\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

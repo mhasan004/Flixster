@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.codepath.libraries:asynchttpclient:0.0.9] C:\Users\Hasan\.gradle\caches\transforms-2\files-2.1\b37f5a131efca2a944742d76dd44a979\jetified-asynchttpclient-0.0.9\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Hasan\.gradle\caches\transforms-2\files-2.1\77f9e090d44d18bd12907b9e5c6be465\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Hasan\.gradle\caches\transforms-2\files-2.1\1b930c4387f865ad4debf36ab76de6dc\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -40,20 +40,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Hasan\.gradle\caches\transform
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Hasan\.gradle\caches\transforms-2\files-2.1\f1b9d4e5ef841f9047e9f9c3887bd56a\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Hasan\.gradle\caches\transforms-2\files-2.1\8e39f3ea582a0af84a7122d217e62d06\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Hasan\.gradle\caches\transforms-2\files-2.1\3f8f952b601e25afffda4e4703b46594\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml
 		INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml
-		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml
-		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:2:11-69
@@ -62,7 +62,7 @@ ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:4:5-66
 	android:name
 		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:6:5-20:19
+ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:6:5-23:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Hasan\.gradle\caches\transforms-2\files-2.1\1b930c4387f865ad4debf36ab76de6dc\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Hasan\.gradle\caches\transforms-2\files-2.1\1b930c4387f865ad4debf36ab76de6dc\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Hasan\.gradle\caches\transforms-2\files-2.1\3680e1c27d4f135d7d2b2b40e3cf6fb6\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
@@ -105,6 +105,12 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
 		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:17:27-74
+meta-data#preloaded_fonts
+ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:20:9-22:57
+	android:resource
+		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:22:13-54
+	android:name
+		ADDED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:21:13-43
 uses-sdk
 INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml
