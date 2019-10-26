@@ -702,7 +702,9 @@ int drawable notification_tile_bg 0x7f07006b
 int drawable notify_panel_notification_icon_bg 0x7f07006c
 int drawable tooltip_frame_dark 0x7f07006d
 int drawable tooltip_frame_light 0x7f07006e
-int font allerta_stencil 0x7f080000
+int font aclonica 0x7f080000
+int font allerta_stencil 0x7f080001
+int font cantora_one 0x7f080002
 int id ALT 0x7f090000
 int id CTRL 0x7f090001
 int id FUNCTION 0x7f090002

@@ -20,6 +20,14 @@
         "source": "C:\\REPOSITORIES\\GH\\Flixster\\app\\src\\main\\res\\layout\\item_movie.xml"
     },
     {
+        "merged": "C:\\REPOSITORIES\\GH\\Flixster\\app\\build\\intermediates\\res\\merged\\debug\\font_aclonica.xml.flat",
+        "source": "C:\\REPOSITORIES\\GH\\Flixster\\app\\src\\main\\res\\font\\aclonica.xml"
+    },
+    {
+        "merged": "C:\\REPOSITORIES\\GH\\Flixster\\app\\build\\intermediates\\res\\merged\\debug\\font_cantora_one.xml.flat",
+        "source": "C:\\REPOSITORIES\\GH\\Flixster\\app\\src\\main\\res\\font\\cantora_one.xml"
+    },
+    {
         "merged": "C:\\REPOSITORIES\\GH\\Flixster\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\REPOSITORIES\\GH\\Flixster\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },

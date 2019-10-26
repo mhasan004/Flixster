@@ -703,7 +703,9 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font aclonica
 font allerta_stencil
+font cantora_one
 id ALT
 id CTRL
 id FUNCTION
