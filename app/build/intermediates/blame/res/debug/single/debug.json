@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\REPOSITORIES\\GH\\Flixster\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail.xml.flat",
+        "source": "C:\\REPOSITORIES\\GH\\Flixster\\app\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
         "merged": "C:\\REPOSITORIES\\GH\\Flixster\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\REPOSITORIES\\GH\\Flixster\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },

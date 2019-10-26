@@ -1,22 +1,29 @@
 package com.example.flixster.models;
-import android.util.Log;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
+
 import java.util.ArrayList;
 import java.util.List;
 
 // Diving the processes. what Main will go and what movies will do. dividing the logics to be clearer
 //3) my makeMovieListFromJsonArray(): make a List of movie objects from a given JSONArray input
+
+@Parcel                                                                     //Part 2 section. added this to use Parcel
 public class Movie {
     String posterPath;                                                      //3.0) These are the fields i care about from that JSON object that the website api gives us
     String title;
     String overview;
+    double rating;
+
+    public Movie() {}                                                       //Part 2 section: empty constructor needed for Parceler library
 
     public Movie(JSONObject jsonObject) throws JSONException{               //3.1) The constructor will make a movie object. If any of these fails, the constructor will throw the JSON Exception
         posterPath = jsonObject.getString("poster_path");             //3.1) These will have exceptions, instead of putting throw catches, we will add a "throws JSONException" in the contructor def
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
+        rating = jsonObject.getDouble("vote_average");
     }
                                                                             //3.2-3.3) Construct and return a List of 'Movie' object for each item in the array (will pass the'results' JSONArray from Main)
     public static List<Movie> makeMovieListFromJsonArray(JSONArray movieJsonArray) throws JSONException
@@ -32,13 +39,14 @@ public class Movie {
     public String getPosterPath() {                                             //3.4.1) ISSUE: From the JSON of the site u see that posterPath is only the relative URL (not full URL). See Hints tab of Week1
         return String.format("https://image.tmdb.org/t/p/w342/%s",posterPath);          //**Hardcoding the path. Should be using the API to find the correct size for attribute: Size of posters are w342, then we are just appending the path to it
     }
-
     public String getTitle() {
         return title;
     }
-
     public String getOverview() {
         return overview;
+    }
+    public double getRating() {
+        return rating;
     }
 }
 
