@@ -29,33 +29,32 @@
 19-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:13:9-40
-23        <activity android:name="com.example.flixster.DetailActivity" />
-23-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:14:9-61
-23-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:14:19-49
-24        <activity android:name="com.example.flixster.MainActivity" >
-24-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:15:9-21:20
-24-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:15:19-47
-25            <intent-filter>
-25-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:17:17-69
-26-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:19:17-77
-28-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31
-32        <meta-data
-32-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:23:9-25:57
-33            android:name="preloaded_fonts"
-33-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:24:13-43
-34            android:resource="@array/preloaded_fonts" />
-34-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:25:13-54
-35    </application>
-36
-37</manifest>
+21        android:theme="@style/AppTheme" >
+21-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity android:name="com.example.flixster.DetailActivity" />
+22-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:14:9-61
+22-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:14:19-49
+23        <activity android:name="com.example.flixster.MainActivity" >
+23-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:15:9-21:20
+23-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:15:19-47
+24            <intent-filter>
+24-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:17:17-69
+25-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:19:17-77
+27-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <meta-data
+31-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:23:9-25:57
+32            android:name="preloaded_fonts"
+32-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:24:13-43
+33            android:resource="@array/preloaded_fonts" />
+33-->C:\REPOSITORIES\GH\Flixster\app\src\main\AndroidManifest.xml:25:13-54
+34    </application>
+35
+36</manifest>

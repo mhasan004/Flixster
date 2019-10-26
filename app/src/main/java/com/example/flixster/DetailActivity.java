@@ -28,6 +28,6 @@ public class DetailActivity extends AppCompatActivity {
 
         tvTitle.setText(movie.getTitle());
         tvOverview.setText(movie.getOverview());
-        ratingBar.setRating((float)movie.getRating());
+        ratingBar.setRating((float)movie.getRating());  //cast double ratignt o float
     }
 }
